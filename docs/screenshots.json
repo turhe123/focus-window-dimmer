@@ -1,0 +1,4 @@
+[
+  {"file":"01-menu-bar-popover.png","caption":"The menu bar popover lets you switch dimming on or off, set intensity, tint and fade duration, and manage excluded apps.","alt":"FocusWindowDimmer menu bar popover with dimming toggle, intensity and fade sliders"},
+  {"file":"02-settings.png","caption":"Settings let you record a global hotkey, set a dimming schedule, dim the menu bar, launch at login, and turn on optional Accessibility support.","alt":"FocusWindowDimmer Settings window with hotkey, schedule, general and accessibility sections"}
+]

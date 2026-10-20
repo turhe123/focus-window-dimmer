@@ -1,5 +1,7 @@
 # FocusWindowDimmer
 
+**🌐 Website:** [turhe123.github.io/focus-window-dimmer](https://turhe123.github.io/focus-window-dimmer/)
+
 Dim everything behind the active window so your eyes and attention stay on the one thing you are working on.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -29,7 +31,13 @@ FocusWindowDimmer is a free, open-source, 100% native, backend-free alternative 
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-menu-bar-popover.png" alt="FocusWindowDimmer menu bar popover with dimming toggle, intensity and fade sliders" width="720"></p>
+
+<p align="center"><em>The menu bar popover lets you switch dimming on or off, set intensity, tint and fade duration, and manage excluded apps.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="FocusWindowDimmer Settings window with hotkey, schedule, general and accessibility sections" width="560"></p>
+
+<p align="center"><em>Settings let you record a global hotkey, set a dimming schedule, dim the menu bar, launch at login, and turn on optional Accessibility support.</em></p>
 
 ## Install
 

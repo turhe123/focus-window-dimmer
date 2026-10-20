@@ -1,0 +1,60 @@
+{
+  "seo_title": "Dim background windows on macOS",
+  "seo_description": "FocusWindowDimmer is a free, open-source menu bar app that dims every window behind the active one on all your displays. Native, offline, macOS 14+.",
+  "hero_title_line1": "Dim everything",
+  "hero_title_accent": "except what matters",
+  "hero_sub": "FocusWindowDimmer darkens every window behind the one you are using, on every display. Toggle it from the menu bar or with the global hotkey, Option-Command-D by default.",
+  "features_title": "Quiet screens, sharp focus.",
+  "features_sub": "A small menu bar utility with the controls that matter and nothing that phones home.",
+  "features": [
+    {
+      "icon": "display",
+      "title": "Dims every other window",
+      "desc": "A click-through overlay sits directly beneath the active app's top window, on every connected display. It keeps working across Spaces, full-screen apps and display changes."
+    },
+    {
+      "icon": "sliders",
+      "title": "Intensity, tint and fade",
+      "desc": "Set dimming from 0% to 90%, choose black or any tint color, and adjust the fade duration up to 1.5 seconds. You can also dim the menu bar."
+    },
+    {
+      "icon": "keyboard",
+      "title": "Global hotkey toggle",
+      "desc": "Turn dimming on or off from anywhere with Option-Command-D, or record your own shortcut in Settings."
+    },
+    {
+      "icon": "clock",
+      "title": "Dim on a schedule",
+      "desc": "Pick a start and end time and dimming runs only in that window. Ranges that wrap past midnight are supported."
+    },
+    {
+      "icon": "window",
+      "title": "Excluded apps",
+      "desc": "Choose running apps that should never be dimmed. Dimming switches off while one of them is active."
+    },
+    {
+      "icon": "shield",
+      "title": "Native and offline",
+      "desc": "Built only with Apple frameworks, with no network calls, analytics or third-party dependencies. It lives in the menu bar with no Dock icon and can launch at login."
+    }
+  ],
+  "permissions_step": "No permission is needed to dim. Optionally, grant Accessibility in System Settings > Privacy & Security > Accessibility for instant reaction to focus changes and window drags.",
+  "faq": [
+    {
+      "q": "Is FocusWindowDimmer really free and open source?",
+      "a": "Yes. It is released under the MIT license and the full source is on GitHub. There is no account, subscription or paywall. If it helps you, you can optionally support it on Ko-fi."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "None to dim your windows. Accessibility is optional and only requested when you click Grant Accessibility in Settings; it makes the overlay react instantly to focus changes and window drags. Without it, the app falls back to app-switch notifications and a 5 Hz timer. It never requests Screen Recording and never captures screen contents."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Your settings, such as intensity, tint, schedule, hotkey and excluded apps, are saved locally in the app's preferences on your Mac. Nothing is sent anywhere, because the app makes no network connections."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free project. The first time you open it, right-click the app and choose Open. You can also build it yourself from source with Xcode and XcodeGen."
+    }
+  ]
+}
